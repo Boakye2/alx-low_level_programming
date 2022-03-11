@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 /**
  * main - Prints all except q and e 
