@@ -3,7 +3,7 @@
  * islower
  *
  */
-int _islower(int)
+int _islower(int c)
 {
 	if (c >= 'a' && c c <= 'z')
 		return (1);
