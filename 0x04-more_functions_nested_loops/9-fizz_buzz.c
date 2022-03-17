@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main- prints the numbers from  to 0 to 100 with the restriction
