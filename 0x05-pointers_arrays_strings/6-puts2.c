@@ -14,7 +14,7 @@ void puts2(char *s)
 	while (b < a)
 	{
 		_putchar(s[b]);
-		b += 2;
+		b = b + 2;
 	}
 	_putchar('\n');
 }
