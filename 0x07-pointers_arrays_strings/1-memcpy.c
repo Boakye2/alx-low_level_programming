@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memscpy - fills n bytes of memory
+ * _memcpy - fills n bytes of memory
  * @s: a pointer
  * @b: a second pointer
  * @n: num bytes
