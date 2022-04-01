@@ -4,21 +4,20 @@
  * main - Entry point
  * @argc: count of args present
  * @argv: array
- * Return: o
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	int i, p = 0;
-
-	for (i = 1; i < argc; i++)
+	if (argc != 2)
 	{
-		if (!atoi(argv[i]))
-		{
-			printf("Error\n");
-			return (1);
-		}
-		p += atoi(argv[i]);
+		printf("Error\n");
+		return (1);
 	}
-	printf("%d\n", p);
+	printf("%d\n", change(atoi(argv[1])));
 	return (0);
+}
+
+int change(int a)
+{
+
 }
