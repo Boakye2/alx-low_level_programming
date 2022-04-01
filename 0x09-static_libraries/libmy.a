@@ -1,2 +1,7 @@
-int _putchar(char c);
-int _islower(int c);
+!<arch>
+main.h/         0           0     0     644     52        `
+#ifndef MAIN_H
+#define MAIN_N
+
+
+#endif /* MAIN_H */
