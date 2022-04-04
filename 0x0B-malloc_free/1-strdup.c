@@ -25,4 +25,5 @@ char *_strdup(char *str)
 	if (ptr == NULL)
 		return (NULL);
 	return (ptr);
+	free(ptr);
 }
