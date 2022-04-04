@@ -3,11 +3,11 @@
 #include <stdlib.h>
 /**
  * free_grid - function
- * @**grid: 2 dimensions
+ * @grid: 2 dimensions
  * @height: input size
  * Return: the result
  */
-void free_grid(int **grid; int height)
+void free_grid(int **grid, int height)
 {
 	int i;
 
