@@ -26,7 +26,9 @@ char *str_concat(char *s1, char *s2)
 	}
 	ptr = malloc(sizeof(char) * (e1 + e2 + 1));
 	if (ptr == NULL)
+	{	free(ptr);
 		return (NULL);
+	}
 	while (*s1)
 	{
 		ptr[i] = *s1;
