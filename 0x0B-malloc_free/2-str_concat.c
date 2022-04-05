@@ -12,6 +12,9 @@ char *str_concat(char *s1, char *s2)
 	int e1, e2, i = 0;
 	char *ptr;
 
+	if (s1 == NULL || s2 == NULL)
+		return (NULL);
+
 	for (e1 = 0; e1 <= *s1; e1++)
 	{
 	}
