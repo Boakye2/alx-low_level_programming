@@ -13,15 +13,15 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 
 	if (s1 == NULL && s2 == NULL)
-	{	free(ptr);
+	{
 		return (NULL);
 	}
 	else if (s1 == NULL)
-	{	free(ptr);
+	{
 		return (s2);
 	}
 	else if (s2 == NULL)
-	{	free(ptr);
+	{
 		return (s1);
 	}
 
