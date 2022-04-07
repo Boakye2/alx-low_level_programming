@@ -7,14 +7,16 @@
  * @max: max
  * Return: the result
  */
-void *array_range(int min, int max)
+int *array_range(int min, int max)
 {
-	char *ptr;
+	int *ptr;
 	int i, len;
 
 	if (min > max)
 		return (NULL);
-	len = max - min;
+	for (len = 0; len <  (max - min); len++)
+	{
+	}
 	ptr = malloc(sizeof(int) * (len + 1));
 	if (ptr == NULL)
 		return (NULL);
