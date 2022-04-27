@@ -4,7 +4,7 @@
 #include <stdio.h>
 /**
  * insert_nodeint_at_index - function that insert a new node at the specifque
- * position in list
+ * position in the list
  * @head: the head
  * @idx: the index of the list
  * @n: the integer
