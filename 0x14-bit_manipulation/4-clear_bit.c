@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * clear_bit - Function that clear the value of a bit to 0 at a given index
+ * clear_bit - Function that set the value of a bit to 0 at a given index
  * @n: a pointer
  * @index: a index
  * Return: 1 succes or -1 error
