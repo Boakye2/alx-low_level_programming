@@ -61,7 +61,14 @@ int main(int argc, char *argv[])
 	do {
 		if (f == -1 || r == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[2]);
+			dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]);
+			free(buf);
+			exit(98);
+		}
+		w = write(t, buf, r);
+		if (t == -1 || w == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			free(buf);
 			exit(99);
 		}
