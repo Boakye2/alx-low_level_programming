@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 
-char *create_buf(char *file);
+char *create_buf(char *filename);
 void close_file(int fd);
 /**
  * create_buf - create a buffer
@@ -16,7 +16,7 @@ char *create_buf(char *filename)
 	buf = malloc(sizeof(char) * 1024);
 	if (buf == NULL)
 	{
-		dprintf(STDERR_FILENO, "Error:Can't write to %s\n", filename);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 		exit(99);
 	}
 	return (buf);
