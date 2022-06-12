@@ -3,7 +3,6 @@
 /**
  * print_dlistint - Prints all elements.
  * @h: The head of list.
- *
  * Return: The number of nodes .
  */
 size_t print_dlistint(const dlistint_t *h)
@@ -13,7 +12,7 @@ size_t print_dlistint(const dlistint_t *h)
 	while (h)
 	{
 		nodes++;
-		printf("%d\n", h->n);
+		printf("%d\n", h->element);
 		h = h->next;
 	}
 
